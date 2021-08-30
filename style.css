@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+body{
+    background: radial-gradient(#0000002c, #000000bd), url(http://5b0988e595225.cdn.sohucs.com/images/20181108/a8c868c2bf1e49f2bd71659e924e68ca.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img, video{
+    width: 100%;
+}
+.navbar-brand img{
+    width: 6rem;
+    background: #000;
+    border-radius: 50%;
+    padding: 10px;
+}
+.main-title{
+    font-family: 'Merienda', cursive;
+}
+.single-image-inner{
+    /* max-height: 190px; */
+    overflow: hidden;
+}
+/* .display-img{
+    height: 12rem;
+} */
+.display-video{
+    height: 14rem;
+}
+.error-img{
+    width: 10rem;
+}
+@media only screen and (max-width: 688px) {
+    .navbar-brand img{
+        width: 3rem;
+    }
+    .input-group{
+        width: 97% !important;
+    }
+}
